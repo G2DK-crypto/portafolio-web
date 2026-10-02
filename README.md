@@ -108,7 +108,7 @@ https://usuario.github.io/portafolio-web/
 
 **G2DK-crypto**
 - Email: a.torrealbacastro@intecorecoleta.cl
-- GitHub: [tu-usuario](https://github.com/tu-usuario)
+- GitHub: [G2DK-crypto](https://github.com/G2DK-crypto)
 
 ## 📄 Licencia
 
