@@ -26,7 +26,21 @@ section {
 
 /* Hero section con gradiente */
 .hero.is-primary {
-    background: linear-gradient(135deg, #00d1b2 0%, #3273dc 100%);
+    background: linear-gradient(135deg, #00d1b2 0%, #3273dc 50%, #8e44ad 100%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Animación para el hero */
