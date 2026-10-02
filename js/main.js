@@ -120,5 +120,27 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Botón para volver arriba
+    const backToTopButton = document.createElement('button');
+    backToTopButton.className = 'button is-primary is-rounded';
+    backToTopButton.style.cssText = 'position: fixed; bottom: 20px; right: 20px; z-index: 1000; display: none;';
+    backToTopButton.innerHTML = '<span class="icon"><i class="fas fa-arrow-up"></i></span>';
+    document.body.appendChild(backToTopButton);
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+
+    backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
     console.log('Portafolio cargado correctamente 🚀');
 });
