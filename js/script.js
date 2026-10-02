@@ -1,4 +1,18 @@
 // ==============================
+// VIDEO DE FONDO
+// ==============================
+
+const video = document.querySelector('.video-background video');
+
+// Asegurar que el video se reproduzca
+if (video) {
+    video.play().catch(function(error) {
+        console.log("Error reproduciendo video:", error);
+    });
+}
+
+
+// ==============================
 // MENÚ RESPONSIVE
 // ==============================
 
