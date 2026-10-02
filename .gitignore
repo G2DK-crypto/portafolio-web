@@ -1,0 +1,20 @@
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Capturas (opcional - descomentar si no quieres incluir capturas en git)
+# capturas/
