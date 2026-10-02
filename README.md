@@ -1,10 +1,10 @@
-# Mi Portafolio Web
+# Portafolio Web - Abdiel Torrealba
 
 Portafolio web personal desarrollado como proyecto académico para showcase de habilidades y proyectos.
 
 ## 📋 Descripción del Proyecto
 
-Este portafolio web es una aplicación estática que presenta información personal, proyectos, habilidades, estudios y formulario de contacto. Fue desarrollado utilizando tecnologías web modernas y siguiendo las mejores prácticas de desarrollo.
+Este portafolio web es una aplicación estática que presenta información personal, proyectos automotrices, habilidades de programación, estudios y contacto. Fue desarrollado utilizando tecnologías web modernas y siguiendo las mejores prácticas de desarrollo.
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -32,12 +32,12 @@ portafolio-web/
 
 ## 🎯 Secciones del Portafolio
 
-1. **Inicio** - Hero section con mensaje de bienvenida
-2. **Sobre mí** - Información personal y presentación
-3. **Mis Proyectos** - Showcase de proyectos desarrollados
-4. **Mis Habilidades** - Habilidades técnicas y blandas
-5. **Mis Estudios** - Educación formal y cursos
-6. **Contacto** - Formulario de contacto e información
+1. **Inicio** - Hero section con presentación personal
+2. **Sobre mí** - Información personal, intereses y hobbies
+3. **Mis Proyectos** - Proyectos automotrices y desarrollo
+4. **Mis Habilidades** - Habilidades técnicas (Programación, Java, MySQL)
+5. **Mis Estudios** - Educación formal y cursos de programación
+6. **Contacto** - Información de contacto (email y teléfono)
 
 ## 🛠️ Instalación y Uso
 
@@ -57,11 +57,11 @@ cd portafolio-web
 
 - ✅ Diseño responsive (mobile-first)
 - ✅ Navegación suave entre secciones
-- ✅ Animaciones y efectos visuales
-- ✅ Formulario de contacto funcional
-- ✅ Botón para volver arriba
+- ✅ Tema oscuro con acentos en rojo
 - ✅ Menú hamburguesa para móviles
-- ✅ Gradiente animado en hero section
+- ✅ Timeline para estudios
+- ✅ Cards de proyectos con hover effects
+- ✅ Barras de progreso para habilidades
 - ✅ Interactividad con JavaScript
 
 ## 🔄 Historial de Commits
@@ -75,6 +75,9 @@ El proyecto sigue un flujo de trabajo Git con commits significativos:
 - `style: mejora formulario de contacto con iconos y mensajes de ayuda` - UX improvements
 - `style: implementa diseño responsive para móviles y tablets` - Responsive design
 - `feat: agrega sección proyectos con contenido detallado` - Desarrollado en rama feature/proyectos
+- `docs: agrega README.md con documentación completa del proyecto` - Documentación
+- `style: personaliza portafolio con nombre de usuario G2DK-crypto` - Personalización inicial
+- `feat: reemplaza contenido con información personal de Abdiel Torrealba` - Contenido real del estudiante
 
 ## 🌿 Ramas Git
 
@@ -106,8 +109,9 @@ https://usuario.github.io/portafolio-web/
 
 ## 👤 Autor
 
-**G2DK-crypto**
+**Abdiel Torrealba Castro**
 - Email: a.torrealbacastro@intecorecoleta.cl
+- Teléfono: +56 9 7330 6972
 - GitHub: [G2DK-crypto](https://github.com/G2DK-crypto)
 
 ## 📄 Licencia
@@ -122,19 +126,21 @@ Durante el desarrollo de este proyecto se utilizaron herramientas de Inteligenci
 
 ### Herramientas Utilizadas
 
-- **Devin AI** - Asistente de codificación para la creación del proyecto completo
+- **Devin AI** - Asistente de codificación para la creación de la estructura inicial del proyecto
 
 ### Prompt Utilizado
 
 "Crear un portafolio web personal con las siguientes secciones: Inicio, Sobre mí, Mis proyectos, Mis habilidades, Mis estudios, Contacto. El proyecto debe utilizar HTML, CSS, JavaScript y el framework Bulma. Debe incluir diseño responsive, animaciones, formulario de contacto funcional, y seguir un flujo de trabajo Git con commits significativos y ramas de desarrollo."
 
+Luego se proporcionó el código HTML, CSS y JavaScript personalizado del estudiante para reemplazar el contenido inicial.
+
 ### Comprensión del Código
 
-El código generado ha sido revisado y comprendido. Se entiende que:
+El código ha sido revisado y comprendido. Se entiende que:
 
-1. **HTML** - Estructura semántica con las secciones requeridas, usando etiquetas apropiadas para accesibilidad
-2. **CSS** - Estilos personalizados que complementan Bulma, incluyendo animaciones, diseño responsive y efectos visuales
-3. **JavaScript** - Funcionalidad para navegación suave, manejo del formulario, animaciones al scroll, y botón volver arriba
-4. **Git** - Flujo de trabajo profesional con commits descriptivos siguiendo conventional commits y ramas de desarrollo
+1. **HTML** - Estructura semántica con las secciones requeridas (Inicio, Sobre mí, Proyectos, Habilidades, Estudios, Contacto)
+2. **CSS** - Diseño personalizado con tema oscuro, variables CSS, y diseño responsive
+3. **JavaScript** - Funcionalidad para menú responsive, navegación suave entre secciones
+4. **Git** - Flujo de trabajo profesional con commits descriptivos y ramas de desarrollo
 
-El portafolio es completamente funcional y listo para ser desplegado en GitHub Pages.
+El portafolio es completamente funcional y personalizado con la información real del estudiante Abdiel Torrealba Castro.
