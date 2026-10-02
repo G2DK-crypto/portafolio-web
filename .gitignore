@@ -16,5 +16,11 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Archivos de video grandes
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+videos/*.mkv
+
 # Capturas (opcional - descomentar si no quieres incluir capturas en git)
 # capturas/
